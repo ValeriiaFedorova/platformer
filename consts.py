@@ -1,0 +1,27 @@
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 650
+SCREEN_TITLE = "Other Planet"
+# Размер спрайтов от их оригинального
+CHARACTER_SCALING = 0.65
+TILE_SCALING = 0.5
+COIN_SCALING = TILE_SCALING
+SPRITE_PIXEL_SIZE = 128
+GRID_PIXEL_SIZE = SPRITE_PIXEL_SIZE * TILE_SCALING
+# Скорость персонажа, pixels per frame
+PLAYER_MOVEMENT_SPEED = 10
+GRAVITY = 1
+PLAYER_JUMP_SPEED = 20
+# Начальные координаты персонажа
+PLAYER_START_X = 64
+PLAYER_START_Y = 225
+# Начальное направление персонажа
+RIGHT_FACING = 0
+LEFT_FACING = 1
+# Слоя карты
+LAYER_NAME_PLATFORMS = "Platforms"
+LAYER_NAME_COINS = "Coins"
+LAYER_NAME_LADDERS = "Ladders"
+LAYER_NAME_FOREGROUND = "Foreground"
+LAYER_NAME_BACKGROUND = "Background"
+LAYER_NAME_DONT_TOUCH = "Don't Touch"
+LAYER_NAME_PLAYER = "Player"
